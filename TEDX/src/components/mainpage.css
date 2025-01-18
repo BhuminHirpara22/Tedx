@@ -1,0 +1,194 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+
+  overflow-x: hidden;
+}
+
+.about-us-container {
+  padding: 20px 10%;
+}
+
+.about-us-title {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f95107; /* Bright orange color */
+}
+
+.section1 {
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.section2 {
+  width: 90%;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff; /* White text */
+}
+
+.section-content {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ffffff; /* Light gray text */
+  font-weight: 300;
+}
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .about-us-container {
+    padding: 20px 5%;
+  }
+
+  .section-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-image {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+/* Container Styling */
+.mun25-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: rgba(73, 71, 71, 0.219); Dark overlay effect
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Content Layout */
+.mun25-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 80%;
+
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Left Section (Logo) */
+.mun25-logo {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  width: 55%;
+}
+
+/* Right Section (Details) */
+.mun25-details {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  translate: 0 0.75rem;
+}
+
+/* Title and Date */
+.mun25-title {
+  font-size: 2rem;
+  font-weight: 925;
+  color: #ff6700; /* Bright orange */
+}
+
+.mun25-date {
+  font-size: 18px;
+  font-weight: 1000;
+  translate: 0 -1.75rem;
+  color: #ffffff; /* Light gray */
+}
+
+/* Agendas */
+.mun25-agendas {
+    translate: 0 -2rem;
+}
+
+.mun25-agenda-title {
+    font-size: 32px;
+    font-weight: 950;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.mun25-agenda-list {
+  list-style-type: disc;
+  padding: 20px;
+  translate:0 -0.5rem;
+}
+
+.mun25-agenda-list li {
+    list-style: disc;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 875;
+}
+
+/* Register Button */
+.register-button {
+  /* margin-top: 20px; */
+  padding: 0.75rem 1.5rem;
+  background-color: #ff6700; /* Bright orange */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 35%;
+  translate: 0 -3.5rem;
+}
+
+.register-button:hover {
+  background-color: #ff4500; /* Darker orange */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mun25-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .mun25-logo img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .mun25-details {
+    align-items: center;
+  }
+}
