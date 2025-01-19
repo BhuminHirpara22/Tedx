@@ -70,10 +70,10 @@ const committees = [
 
 function Committees() {
   return (
-    <div className="Committees">
+    <div className="Committees" style={{margin:"auto", marginTop:"-5vw"}}>
       {/* Committees Section */}
       <section id="committees" className="committees-section">
-        <h2 className="committee-heading">COMMITTEES</h2>
+        <h2 className="committee-heading" style={{fontSize:"3vw",fontWeight:"900"}}>COMMITTEES</h2>
         <p className="description">
           <span style={{fontWeight:"900"}}>"Ideas Worth Sharing: "</span>We believe that for humankind to truly progress and achieve our
           potential, the exchange of ideas between people is essential. TED helps us list the problems

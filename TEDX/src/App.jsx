@@ -1,24 +1,24 @@
-import { useState } from 'react'
-import './App.css'
-import MainPage from './components/mainpage/mainpage'
-import Committees from './components/Commitees/Commitees'
-import Header from "./components/header"
-import Footer from "./components/footer"
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Mainpage from "./components/mainpage/mainpage";
+import Committees from "./components/Commitees/Commitees";
 
 function App() {
+  const [activeMenu, setActiveMenu] = useState("home");
 
-  // const [selected,setSelected]=useState(false);
-
-
+  const handleMenuClick = (menu) => {
+    setActiveMenu(menu);
+  };
 
   return (
     <>
-      <Header />
-      {/* <MainPage/> */}
-      <Committees/>
-      <Footer/>
+      <Header activeMenu={activeMenu} onMenuClick={handleMenuClick} />
+      {activeMenu === "home" ? <Mainpage /> : <Committees />}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

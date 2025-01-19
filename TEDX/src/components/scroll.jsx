@@ -40,14 +40,14 @@ function Scroll() {
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                width: "15%", // Adjust as needed
+                width: "20%", // Adjust as needed
                 objectFit: "contain",
               }}
             />
             <div
               style={{
                 display: "flex",
-                height: "60vh",
+                height: "70vh",
                 width: "100%",
                 margin: "0",
               }}

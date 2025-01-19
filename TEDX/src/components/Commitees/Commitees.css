@@ -41,7 +41,8 @@ cursor: pointer;
 /* Committees Section */
 .committees-section {
 text-align: center;
-margin: 200px 0px 0px;
+width:90%;
+margin: auto;
 padding: 40px 20px;
 }
 
@@ -91,8 +92,9 @@ font-size: 40px;
 }
 
 .card p {
-font-size: 23px;
-color: #ccc;
+font-size:20px;
+color: #ffffff;
+margin-top: -1vw;
 }
 
 /* Circular Icon Area */
