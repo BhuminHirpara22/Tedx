@@ -1,21 +1,21 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
-import Scroll from "./scroll";
-import IMG1 from "../assets/DSC09582 1.png";
-import MUN25IMG from "../assets/Group 1437254130.png";
-import BACKMUN25IMG from "../assets/DSC09196 1.png";
+import Header from "../header";
+import Footer from "../footer";
+import Scroll from "../scroll";
+import IMG1 from "../../assets/DSC09582 1.png";
+import MUN25IMG from "../../assets/Group 1437254130.png";
+import BACKMUN25IMG from "../../assets/DSC09196 1.png";
 import "./mainpage.css"; // Importing the CSS file
 
 function MainPage() {
   return (
-    <div>
+    <div style={{width:"100%",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
       <Header />
-      <div>
+      <div style={{width:"90%",borderRadius:"10px", height:"60vh",}}>
         <Scroll />
       </div>
-      <div className="about-us-container">
-        <div className="about-us-title" style={{ marginBottom: "1.5rem" }}>
+      <div className="about-us-container" style={{marginBottom:"10%",marginTop:"10%"}}>
+        <div className="about-us-title" style={{ margin:"auto",marginBottom: "1.5rem" }}>
           ABOUT <span style={{ color: "white", fontSize: "48px" }}>US</span>
         </div>
         <div
@@ -99,7 +99,7 @@ function MainPage() {
 
           {/* Right Section */}
           <div className="mun25-details">
-            <h1 className="mun25-title">MUN <span style={{color:"white",fontSize:"2rem"}}>25</span></h1>
+            <h1 className="mun25-title">MUN <span style={{color:"white",fontSize:"max(20px,3.5vw)"}}>25</span></h1>
             <p className="mun25-date">Date - 32 / 13 / 2025</p>
             <div className="mun25-agendas">
               <h2 className="mun25-agenda-title">Agendas</h2>
@@ -107,20 +107,17 @@ function MainPage() {
                 <li>
                   UNGA DISEC: Lorem ipsum, dolor sit amet consectetur
                   adipisicing elit. Velit, rem aut nemo alias accusamus magnam
-                  repellendus nam enim. Assumenda eius dolore reprehenderit
-                  ipsam non fuga hic autem aliquid. Nisi, quisquam?
+                  repellendus nam enim.
                 </li>
                 <li>
                   UNHRC: Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Earum beatae, excepturi sunt fugit quos consequatur
-                  reiciendis culpa asperiores quis quibusdam corrupti minus illo
-                  error nobis ea nam tenetur delectus expedita.
+                  reiciendis culpa asperiores.
                 </li>
                 <li>
                   UNHRC: Lorem ipsum dolor sit, amet consectetur adipisicing
                   elit. Porro eos nam aliquam. Ipsam hic laudantium quas
-                  corrupti fugit, rem possimus ipsa amet fugiat expedita
-                  nesciunt qui, voluptas mollitia quos aliquam.
+                  corrupti fugit, rem possimus.
                 </li>
               </ul>
             </div>
