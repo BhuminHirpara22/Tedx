@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../header";
-import Footer from "../footer";
 import Scroll from "../scroll";
 import IMG1 from "../../assets/DSC09582 1.png";
 import MUN25IMG from "../../assets/Group 1437254130.png";
@@ -10,7 +8,6 @@ import "./mainpage.css"; // Importing the CSS file
 function MainPage() {
   return (
     <div style={{width:"100%",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
-      <Header />
       <div style={{width:"90%",borderRadius:"10px", height:"60vh",}}>
         <Scroll />
       </div>
@@ -125,8 +122,6 @@ function MainPage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

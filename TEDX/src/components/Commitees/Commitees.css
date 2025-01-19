@@ -1,4 +1,4 @@
-
+/* Reset styles */
 body, html, #root {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body, html, #root {
     color: #fff;
   }
   
-
+/* Header Styles */
 .header {
 display: flex;
 justify-content: space-between;
@@ -38,7 +38,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-
+/* Committees Section */
 .committees-section {
 text-align: center;
 margin: 200px 0px 0px;
@@ -58,7 +58,7 @@ line-height: 1.6;
 color: #ddd;
 }
 
-
+/* Cards Container */
 .cards-container {
 display: flex;
 flex-wrap: wrap;
@@ -68,7 +68,7 @@ margin-top: 150px;
 margin-bottom: 500px;
 }
 
-
+/* Individual Card */
 .card {
 background-color: #222;
 background-size: cover;
@@ -95,7 +95,7 @@ font-size: 23px;
 color: #ccc;
 }
 
-
+/* Circular Icon Area */
 .icon {
 width: 194.69px;
 height: 194.69px;
@@ -118,7 +118,7 @@ width: 60%;
 height: 60%;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
 .cards-container {
     flex-direction: column;
