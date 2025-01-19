@@ -14,7 +14,8 @@ function App() {
   return (
     <>
       <Header />
-      <MainPage/>
+      {/* <MainPage/> */}
+      <Committees/>
       <Footer/>
     </>
   )
